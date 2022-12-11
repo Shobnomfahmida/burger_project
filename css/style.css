@@ -1,0 +1,243 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Alfa Slab One', cursive !important;
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*header css start*/
+.header{
+	width: 100%;
+	padding: 20px 0px;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+	padding: 20px 0px;
+}
+.menu .info{
+	width: 100%;
+	text-align: right;
+}
+.menu .info P{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14PX;
+	line-height: 24PX;
+	font-weight: 700;
+	color: #3d2514;
+	letter-spacing: 2PX;
+	margin: 0px 20px 0px 0px;
+}
+.menu .info img{
+	margin: 0px 10px 0px 0px;
+}
+.menu .navbar-nav .nav-item .nav-link{
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #3d2514;
+	margin: 0px 0px 0px 30px;
+	transition: 1s;
+
+}
+.menu .navbar-nav .nav-item .nav-link:hover{
+	color: #bf2222;
+}
+.menu .navbar-nav .nav-item .nav-link:focus{
+	color: #bf2222;
+}
+
+
+/*banner css start*/
+.banner{
+	width: 100%;
+	padding: 20px 0px 0px;
+}
+.banner h4{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 22px;
+	line-height: 32px;
+	color: #3d2514;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin: 60px 0px 20px;
+
+}
+.banner h4 span{
+	border: 2px dashed #3d2514;
+	padding: 10px 15px;
+}
+.banner h1{
+	font-size: 100px;
+	line-height: 110px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 3px;
+	text-shadow: 1px 4px 10px  #fff;
+
+} 
+.banner h3{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 3px;
+	text-shadow: 1px 4px 10px  #fff;
+	
+} 
+/*banner css end*/
+
+/*popular css start*/
+.popular{
+	width: 100%;
+	padding: 80px 0px 45px;
+
+}
+
+.popular .card{
+
+	margin: 0px 0px 35px;
+	border: none;
+	background: #fff;
+
+}
+.popular .card .card-img-overlay h5{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 10px 0px 0px;
+	
+	}
+
+.popular .card .card-img-overlay h3{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+	
+	
+}
+/*popular css end*/
+
+/*choose css start*/
+.choose{
+	width: 100%;
+	padding: 80px 0px;
+}
+.choose .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+}
+.choose .title h4{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 2px;
+	margin: 0px 0px 50px;
+
+
+}
+.choose .title h4 span{
+	background: #ffc045;
+	padding: 10px 20px;
+}
+.choose .title h2{
+
+	font-size: 56px;
+	line-height: 66px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 2px;
+	
+}
+.choose .title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+}
+.inner-choose{
+	width: 100%;
+	padding: 5px 4px;
+	text-align: center;
+}
+.inner-choose img{
+	width: 100%;
+	margin: 0px 0px 10px;
+
+}
+.inner-choose h3{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 2px;
+	
+}
+.inner-choose p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+	margin: 0px 0px 20px;
+	
+}
+.inner-choose .btn-primary{
+	font-family: 'Alfa Slab One', cursive !important;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	background: #bf2222;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: none;
+	
+}
+.inner-choose .btn-primary:hover{
+	background: #3d2514;
+	border: 1px solid #3d2514;
+	color: #fff;
+}
+
+
+/*choose css end*/
+
+
+
